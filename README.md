@@ -88,15 +88,3 @@ Siga las siguientes instrucciones para iniciar este proyecto.
             ```powershell
             PS> gradle -v
             ```
-    * Agregar en el archivo **$HOME/.gradle/gradle.properties** (el archivo con las configuraciones repectivas para bajar las dependencias del Artifactory).
-        ```
-        .gradle/gradle.properties
-        ```
-    * Copiar y agregar la siguiente configuración
-        ```properties
-        artifactory_user=$USER
-        artifactory_password=$ENCRYPTED_PASS
-        libs_release_local=https://innovacionpacifico.jfrog.io/innovacionpacifico/libs-release-local
-        plugins_release_local=https://innovacionpacifico.jfrog.io/innovacionpacifico/plugins-release-local
-
-    * Guardar cambios
