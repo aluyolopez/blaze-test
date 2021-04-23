@@ -88,3 +88,10 @@ Siga las siguientes instrucciones para iniciar este proyecto.
             ```powershell
             PS> gradle -v
             ```
+            
+ 
+### Tener en cuenta
+* En el backend iniciar consumineto el sguiente endpoint http://localhost:9050/ms-crud-customer/v1/customer/generate-customer/1000 para poder poblar la base de datos, también se adjunta un archivo JSON si se desea adjuntar desde algun gestor de MongoDB.
+* Luego de levantar el servicio del Backend iniciar el front realizando un npm install para las dependencias, desguido de un npm start para iniciar el proyecto
+* El proyecto backend ha sido documentado totalmente con Swagger, por lo cual se puede verificar los endpoint que se tienes desde su propia UI.
+
