@@ -1,0 +1,25 @@
+server:
+  port: ${SERVER_PORT:9050}
+  servlet:
+    context-path: /ms-crud-customer/v1
+
+spring:
+  devtools:
+    restart:
+      enabled: true
+  application:
+    name: ms-crud-customer-v1
+  main:
+    allow-bean-definition-overriding: true
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: Customer
+
+info:
+  project:
+    version: 1.0.0
+    title: ms-crud-customer
+    description: ms-crud-customer
+    expose.package: pe.blaze.test.expose
